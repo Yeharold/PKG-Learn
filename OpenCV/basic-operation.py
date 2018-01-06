@@ -5,6 +5,9 @@
 # @Link    : https://github.com/Yeharold
 
 import cv2
-from numpy as np 
+import numpy as np 
 
-img = cv2.imread('')
+img = cv2.imread('lena.jpg')
+
+cv2.imshow('lena',img)
+cv2.waitKey(0)
